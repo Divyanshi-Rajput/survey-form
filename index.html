@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Survey form</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="form-container">
+      <h1 id="title">Survey Form</h1>
+      <p id="description">Please fill all the details carefully. Thank you for giving us your precious time.</p>
+      <form id="survey-form">
+        <div class="box">
+        <label id="name-label">Name</label><br><br>
+        <input type="text" id="name" placeholder="enter your name" class="form-control" required></div>
+        <div class="box">
+        <label id="email-label">Email</label><br><br>
+        <input type="email" id="email" placeholder="enter your email id" class="form-control" required></div>
+       <div class="box">
+        <label id="number-label">Age</label><br><br>
+        <input type="number" id="number" placeholder="enter your age" class="form-control" max="1" min="3" required></div>
+        <div class="box">
+        <p>Which describes your current job the best?</p>
+        <select id="dropdown" class="form-control" required>
+          <option disabled selected value> select one option</option>
+          <option value="student">Student</option>
+          <option value="teacher">Teacher</option>
+          <option value="doctor">Doctor</option>
+          <option value="engineer">Engineer</option>
+          <option value="manager">Manager</option>
+          <option value="other">others</option>
+  </select></div><div class="box">
+          <p>Your gender is</p>
+      <input type="radio" name="gender" value="female">Female
+      <input type="radio" name="gender" value="male">Male
+      <input type="radio" name="gender" value="not">Preferred not to say
+    </div><div class="box">
+      <p>Is there any course you're interested in?</p>
+            <label>
+              <input value="a" type="checkbox" class="input-checkbox"/> Full Stack Development
+            </label> <br>
+            <label>
+              <input value="b" type="checkbox" class="input-checkbox"/> C/C++ programming
+            </label><br>
+            <label>
+              <input value="c" type="checkbox" class="input-checkbox"/> Software Development
+            </label><br>
+            <label>
+              <input value="d" type="checkbox" class="input-checkbox"/> Machine Learning
+            </label><br></div><div class="box">
+            <p>Any comments you have...</p>
+            <textarea id="comment" placehlder="write your comments here"></textarea>
+            <br>
+            <button type="submit" id="submit">submit</submit></div>
+      </form>
+    </div>
+  </body>
+</html>

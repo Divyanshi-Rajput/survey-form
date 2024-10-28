@@ -1,0 +1,58 @@
+#title {
+    font-family: "Palatino Linotype", serif; 
+    text-align: center;
+}
+
+#description {
+    text-align: center;
+}
+
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: rgb(217, 212, 138);
+    background-image: url("/bg.jpg"); 
+    background-size: cover; 
+    background-repeat: no-repeat; 
+  }
+  
+  .form-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    text-align: center;
+  }
+  
+  #survey-form {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    width: 100%;
+    border: 1px solid black;
+  }
+
+  #comment{
+    min-width: 500px;
+    min-height: 100px;
+  }
+
+  .form-control{
+    min-width: 200px;
+    min-height: 20px;
+  }
+
+  .box{
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 15px;
+    max-width: 580px;
+    width: 100%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    border: 1px solid black;
+  }
+  
